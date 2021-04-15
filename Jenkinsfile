@@ -1,1 +1,1 @@
-buildApp( argument1: null, { echo "This is the body function" } )
+buildApp( argument1: "This is argument1", { echo "This is the body function" } )
