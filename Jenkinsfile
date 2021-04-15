@@ -7,7 +7,7 @@ pipeline {
    }
 
    stages {
-      buildApp
+      buildApp parameter1: null, { echo "This is the body function"}
    }
 }
 
